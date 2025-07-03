@@ -1,0 +1,69 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>The Website of Wayne McDill</title>
+<link href="styles.css" type="text/css" rel="stylesheet">
+<script language="JavaScript">
+<!--
+function calcHeight()
+{
+  //find the height of the internal page
+  var the_height=
+    document.getElementById('main').contentWindow.
+      document.body.scrollHeight;
+
+  //change the height of the iframe
+  document.getElementById('main').height=
+      the_height;
+}
+//-->
+</script>
+
+
+</head>
+
+<body leftmargin="0" topmargin="0" class="index">
+
+<table width="782" border="0" cellpadding="0" cellspacing="0"><!--DWLayoutDefaultTable-->
+  <tr bgcolor="#3C2209">
+    <td height="100" colspan="3" valign="top"><img src="images/bkgrd.gif" width="762" height="100"></td>
+  </tr>
+  <tr>
+    <td width="94" height="13"></td>
+    <td width="10"></td>
+    <td width="678" valign="top"><!--** Nav **-->
+      <script language="JavaScript" vqptag="doc_level_settings" vqp_datafile0="menu.js" vqp_uid0=91831>cdd__codebase = "nav/";cdd__codebase91831 = "nav/";</script>
+      <script language="JavaScript" vqptag="datafile" src="nav/menu.js"></script>      <script vqptag="placement" vqp_menuid="91831" language="JavaScript">
+create_menu(91831);
+function alert() {} </script>
+      <!--** End **--></td>
+  </tr>
+  <tr>
+    <td height="5"></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td height="274" valign="top" bgcolor="tan"><iframe 
+	src="blank.html" name="side" width="100%" 
+	height="300";
+	scrolling="NO" 
+	frameborder="0"></iframe></td>
+    <td>&nbsp;</td>
+    <td valign="top" bgcolor="tan"><iframe 
+	src="home.html" name="main" width="100%" 
+	height="500" 
+	scrolling="NO" 
+	frameborder="0" 
+	onLoad="calcHeight();"></iframe>
+    </td>
+  </tr>
+  <tr>
+    <td height="0"></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+<br>
+</body>
+</html>

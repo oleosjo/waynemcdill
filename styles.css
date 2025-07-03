@@ -1,0 +1,24 @@
+/* Grandpa's Web Site CSS Document */
+.index {
+	font-family: Verdana;
+	font-size: small;
+	color:#CC6600;
+	background-color:tan;
+	height:100%;
+	background-image: url(images/back.gif);
+	background-repeat: repeat-y;
+}
+
+body{
+	font-family:Verdana;
+	color:#402A11;
+	font-size:small;
+	background-color:#B38F69;
+	}
+
+
+A:link {font-family:Verdana;  text-decoration: none; font-size:small; color:#402A11; }
+A:visited {font-family:Verdana;  text-decoration: none; font-size:small; color: #402A11; }
+A:active {font-family:Verdana  text-decoration: none; color: #402A11; font-size:small;}
+A:hover {font-family:Verdana;  height: 0; color:#CFB8A1; font-size:small }
+
